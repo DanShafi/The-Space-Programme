@@ -1,0 +1,108 @@
+/* ====================================================================
+   STYLES
+   ==================================================================== */
+
+@import "./partials/reset";
+@import "./partials/styles";
+
+/* Navigation */
+
+.site__nav {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr 1fr;
+    align-items: center;
+    border-bottom: 1px solid darkgray;
+    .nav__links {
+        color: white;
+        text-decoration: none;
+    }
+    #site--logo {
+        margin: auto;
+    }
+    #nav--left {
+        margin-left: 65px;
+    }
+    #nav--right {
+        border-left: 1px solid darkgray;
+        padding: 35px;
+        text-align: center;
+    }
+}
+
+/* Hero Section */
+
+.hero__text {
+    font-family: DrukWideSuper;
+}
+
+.spacemen__img {
+    height: 480px;
+    margin-right: 40px;
+}
+
+#grain--texture {
+    position: relative;
+    bottom: 1200px;
+}
+
+/* Spacemen Section */
+
+.div__overlap {
+    position: relative;
+    bottom: 50px;
+}
+
+#spacemen--text {
+    color: black;
+    width: 700px;
+    margin-top: 30px;
+    line-height: 1.5em;
+}
+
+/* Lunar Section */
+
+.lunar--text {
+    line-height: 1.5em;
+    font-size: 1rem;
+    width: 450px;
+}
+
+.lunar--title {
+    line-height: 1.7em;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+/* Footer Section */
+
+.footer--hero {
+    color: black;
+    font-family: DrukWideSuper;
+    font-size: 215px;
+    padding-top: 30px;
+}
+
+#footer--join {
+    color: black;
+    line-height: 1.3em;
+}
+
+#footer--email {
+    margin-top: 25px;
+    margin-left: 20px;
+    color: dimgray;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-family: Space Mono, monospace;
+    border: none;
+}
+
+#footer--input {
+    background-color: black;
+    margin-top: 20px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+}

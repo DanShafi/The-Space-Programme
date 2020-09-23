@@ -1,0 +1,114 @@
+/* ====================================================================
+   FONTS
+   ==================================================================== */
+
+@font-face {
+    font-family: "DrukWideSuper";
+    src: url("../../assets/fonts/Druk-Wide-Super.woff") format("woff");
+}
+
+/* ====================================================================
+   COLOURS
+   ==================================================================== */
+
+$body: #020415;
+$black: #000;
+$white: #fff;
+
+/* ====================================================================
+    LAYOUT
+   ==================================================================== */
+
+body {
+    background-color: $body;
+    color: $white;
+}
+
+.container__inner {
+    margin-left: 180px;
+}
+
+#hero--section {
+    height: 700px;
+    overflow: hidden;
+    #hero--container {
+        margin-left: 180px;
+        margin-top: 50px;
+        h1 {
+            font-size: 200px;
+        }
+    }
+    #hero--inner {
+        margin-left: 180px;
+        margin-top: -20px;
+        display: inline-flex;
+        h1 {
+            font-size: 200px;
+        }
+        p {
+            max-width: 315px;
+            margin-left: 30px;
+            margin-top: 25px;
+            line-height: 1.5em;
+        }
+        img {
+            position: relative;
+            bottom: 180px;
+            left: 50px;
+        }
+    }
+    #hero--arrow {
+        #lets--go {
+            display: inline-block;
+            transform: rotate(-90deg);
+            position: relative;
+            bottom: 350px;
+            left: 150px;
+            color: $white;
+        }
+        #down--arrow {
+            position: relative;
+            left: 115px;
+            bottom: 310px;
+        }
+    }
+}
+
+#team--section {
+    background-color: $white;
+    div {
+        height: 675px;
+    }
+}
+
+#lunar--section {
+    background-color: $black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 450px;
+    #lunar--shuttle {
+        height: 100%;
+        width: 90%;
+        float: right;
+    }
+}
+
+#footer--section {
+    background-color: $white;
+    height: 590px;
+    overflow: hidden;
+    #footer--container {
+        width: 300px;
+        margin-top: 50px;
+    }
+    #footer--svg {
+        float: right;
+        position: relative;
+        bottom: 200px;
+    }
+}
+
+#subfooter--section {
+    height: 50px;
+    background-color: $black;
+}

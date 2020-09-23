@@ -1,0 +1,24 @@
+{
+  "name": "thespaceprogramme",
+  "description": "Hungry Sandwich Sample Project",
+  "version": "1.0.0",
+  "author": "Hungry Sandwich (https://hungrysandwich.club/)",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "cssnano": "^4.1.10",
+    "sass": "^1.26.10"
+  },
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "webpack": "^4.44.1"
+  }
+}
